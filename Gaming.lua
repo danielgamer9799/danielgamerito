@@ -25,7 +25,7 @@ local CharacterTab = Window:MakeTab({
 
 OrionLib:MakeNotification({
 	Name = "Hi there!",
-	Content = "Logged in as "..Player.Name.." ",
+	Content = "Logged in as "..Player.Name.." ".."!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
