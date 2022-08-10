@@ -25,7 +25,7 @@ ScriptHubTab:AddButton({
 })
 
 
-local Window = OrionLib:MakeWindow({Name = "Gaming😎 (1.0.0)", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Gaming 1.0.0", InfoIcon = "rbxassetid://9866853914", ConfigFolder = "Gaming" })
+local Window = OrionLib:MakeWindow({Name = "Gaming😎 (1.0.0)", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Gaming 1.0.0", IntroIcon = "rbxassetid://9866853914", ConfigFolder = "Gaming Oh boi" })
 
 local CharacterTab = Window:MakeTab({
 	Name = "Character",
