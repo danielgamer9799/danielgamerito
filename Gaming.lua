@@ -69,19 +69,13 @@ UniversalTab:AddButton({
   	end    
 })
 UniversalTab:AddButton({
-	Name = "Infinite Yie;d",
+	Name = "Infinite Yield",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 
 
-ScriptsTab:AddButton({
-	Name = "Vape V4",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-  	end    
-})
 ScriptsTab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
