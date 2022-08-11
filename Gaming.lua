@@ -63,7 +63,7 @@ ScriptHubsTab:AddButton({
   	end    
 })
 UniversalTab:AddButton({
-	Name = "fly",
+	Name = "e to fly",
 	Callback = function()
        loadstring(game:HttpGet("https://pastebin.com/raw/snDPg81C"))()
   	end    
