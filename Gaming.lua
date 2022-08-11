@@ -17,6 +17,11 @@ local UniversalTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+local ScriptsTab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 ---Buttons and etc
 CharacterTab:AddTextbox({
 	Name = "Walk speed",
@@ -51,6 +56,12 @@ ScriptHubsTab:AddButton({
         local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
   	end    
 })
+ScriptHubsTab:AddButton({
+	Name = "VG Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
 UniversalTab:AddButton({
 	Name = "fly",
 	Callback = function()
@@ -65,6 +76,18 @@ UniversalTab:AddButton({
 })
 
 
+ScriptsTab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
 --Misc
 OrionLib:MakeNotification({
 	Name = "Welcome!",
