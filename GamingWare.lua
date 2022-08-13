@@ -89,3 +89,5 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://9866853914",
 	Time = 15
 })
+
+if game.PlaceId
