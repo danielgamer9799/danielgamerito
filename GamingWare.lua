@@ -22,6 +22,11 @@ local ScriptsTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+local NoteTab = Window:MakeTab({
+	Name = "Notes",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 ---Buttons and etc
 CharacterTab:AddTextbox({
 	Name = "Walk speed",
@@ -89,3 +94,4 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://9866853914",
 	Time = 15
 })
+NoteTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler")
