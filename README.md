@@ -8,3 +8,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/danie
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
 ```
+# my discord server
+## https://discord.gg/crVsYeubRb
