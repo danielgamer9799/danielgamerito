@@ -1,7 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.2.0)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.2.0)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.3.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.3.1)", IntroIcon = "rbxassetid:/9866853914", })
 local Player = game.Players.LocalPlayer
 --Tabs
+local HomeTab = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 local CharacterTab = Window:MakeTab({
 	Name = "Character",
 	Icon = "rbxassetid://4483345998",
@@ -12,18 +17,13 @@ local ScriptHubsTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-local UniversalTab = Window:MakeTab({
-	Name = "Universal",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 local ScriptsTab = Window:MakeTab({
 	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-local NoteTab = Window:MakeTab({
-	Name = "Notes",
+local UniversalTab = Window:MakeTab({
+	Name = "Universal",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -79,8 +79,6 @@ UniversalTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
-
-
 ScriptsTab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
@@ -94,4 +92,19 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://9866853914",
 	Time = 15
 })
-NoteTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler")
+HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler")
+
+HomeTab:AddTextbox({
+	Name = "Discord",
+	Default = "https://discord.gg/UzZPSb8Sk6",
+	TextDisappear = false,
+	Callback = function(Value)
+		print("thanks for joining!", Value)
+	end	  
+})
+HomeTab:AddButton({
+	Name = "Old version of daniel's universal script",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/Roblox-Exploits/main/DanielUniversalUPDATED.lua", true))()
+  	end    
+})
