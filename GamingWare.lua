@@ -142,6 +142,9 @@ OrionLib:MakeNotification({
 })
 HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler, Credit to Orion UI Library")
 
+HomeTab:AddParagraph("By Danielgamer9799, DANIELGAMERITO"..Player.Name.." "..".")
+
+
 HomeTab:AddTextbox({
 	Name = "Discord",
 	Default = "https://discord.gg/UzZPSb8Sk6",
