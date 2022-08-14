@@ -1,5 +1,6 @@
+---Gaming Ware, Made by using Orion UI Library
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.4.7)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.4.7)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.4.9)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.4.9)", IntroIcon = "rbxassetid:/9866853914", })
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
