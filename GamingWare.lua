@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.3.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.3.1)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.3.2)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.3.1)", IntroIcon = "rbxassetid:/9866853914", })
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
@@ -92,7 +92,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://9866853914",
 	Time = 15
 })
-HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler")
+HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler, Credit to Orion UI Library")
 
 HomeTab:AddTextbox({
 	Name = "Discord",
