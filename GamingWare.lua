@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.4.6)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.4.6)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.4.7)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.4.7)", IntroIcon = "rbxassetid:/9866853914", })
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
@@ -83,6 +83,54 @@ ScriptsTab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Jailbreak",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Ninja Legends",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Ninja%20Legends/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Legends Of Speed",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Youtube Life",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Youtube%20Life/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Prison Life",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Tower Of Hell",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20Of%20Hell/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Piggy",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Script.lua"))()
+  	end    
+})
+ScriptsTab:AddButton({
+	Name = "Vynixius Build A Boat",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
   	end    
 })
 --Misc
