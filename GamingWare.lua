@@ -1,9 +1,17 @@
----Gaming Ware, Made by DANIELGAMERITO, using Orion UI Library
---loading print
+---Gaming Ware, Made by DANIELGAMERITO ("aka Danielgamer9799."), using Orion UI Library
+
+--local text dialogetxts
+local dialogetxt1 = "Loaded Gaming Ware, Enjoy exploiting!."
+--prints
 print("loading Gaming Ware...")
+--if it printed "loading Gaming Ware" then it will print dialogetext1.
+if print("loading Gaming Ware...") then
+	print(dialogetxt1)
+end
+
 --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.0)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.0)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.1)", IntroIcon = "rbxassetid:/9866853914", })
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
@@ -38,6 +46,7 @@ CharacterTab:AddTextbox({
 	TextDisappear = true,
 	Callback = function(Value)
 		Player.Character.Humanoid.WalkSpeed = Value
+		print(Value)
 	end	  
 })
 
@@ -48,6 +57,7 @@ CharacterTab:AddTextbox({
 	Callback = function(Value)
 		Player.Character.Humanoid.JumpPower = Value
         Player.Character.Humanoid.UseJumpPower = true
+		print(Value)
 	end	  
 })
 
@@ -90,53 +100,12 @@ ScriptsTab:AddButton({
   	end    
 })
 ScriptsTab:AddButton({
-	Name = "Vynixius Jailbreak",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Ninja Legends",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Ninja%20Legends/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Legends Of Speed",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Youtube Life",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Youtube%20Life/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Prison Life",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Tower Of Hell",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20Of%20Hell/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Piggy",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Script.lua"))()
-  	end    
-})
-ScriptsTab:AddButton({
-	Name = "Vynixius Build A Boat",
+	Name = "Vynixius",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
   	end    
 })
+
 --Misc
 OrionLib:MakeNotification({
 	Name = "Welcome!",
@@ -148,6 +117,7 @@ HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script,
 
 HomeTab:AddParagraph("By Danielgamer9799, DANIELGAMERITO")
 
+HomeTab:AddParagraph("Update 1.5.1","this update made, -removed individually putting your vynixius scripts, now its the loader, and updated discord server link")
 
 HomeTab:AddTextbox({
 	Name = "Discord",
