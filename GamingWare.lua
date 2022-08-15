@@ -1,11 +1,10 @@
 ---Gaming Ware, Made by DANIELGAMERITO ("aka Danielgamer9799."), using Orion UI Library
 
 --local text dialogetxts
-local dialogetxt1 = "Loaded Gaming Ware, Enjoy exploiting!."
 --prints
 print("loading Gaming Ware...")
 --if it printed "loading Gaming Ware" then it will print dialogetext1.
-print(dialogetext1)
+print("loaded gaming ware!")
 
 --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
