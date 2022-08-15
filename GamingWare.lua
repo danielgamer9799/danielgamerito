@@ -5,9 +5,7 @@ local dialogetxt1 = "Loaded Gaming Ware, Enjoy exploiting!."
 --prints
 print("loading Gaming Ware...")
 --if it printed "loading Gaming Ware" then it will print dialogetext1.
-if print("loading Gaming Ware...") then
-	print(dialogetxt1)
-end
+print(dialogetext1)
 
 --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
@@ -97,12 +95,14 @@ ScriptsTab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+		print("loaded VapeV4")
   	end    
 })
 ScriptsTab:AddButton({
 	Name = "Vynixius",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+		print("loaded Vynixius")
   	end    
 })
 
