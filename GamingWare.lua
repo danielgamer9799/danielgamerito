@@ -104,6 +104,13 @@ ScriptsTab:AddButton({
 		print("loaded Vynixius")
   	end    
 })
+ScriptsTab:AddButton({
+	Name = "Vynixius MM2",
+	Callback = function()
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+		print("loaded Vynixius mm2")
+  	end    
+})
 
 --Misc
 OrionLib:MakeNotification({
