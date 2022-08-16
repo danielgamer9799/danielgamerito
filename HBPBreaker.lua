@@ -44,16 +44,17 @@ local KeySystem = Instance.new("Frame")
 local UICorner_12 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local TextLabel_10 = Instance.new("TextLabel")
-local TextLabel_11 = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
 local UICorner_13 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local Success = Instance.new("Frame")
-local TextLabel_12 = Instance.new("TextLabel")
-local TextButton_2 = Instance.new("TextButton")
+local TextBox1 = Instance.new("TextBox")
 local UICorner_15 = Instance.new("UICorner")
+local Success = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 
 --Properties:
 
@@ -405,6 +406,7 @@ TextLabel_8.TextSize = 14.000
 MainKeySystem.Name = "MainKeySystem"
 MainKeySystem.Parent = HBPgui
 MainKeySystem.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+MainKeySystem.BackgroundTransparency = 1.000
 MainKeySystem.Position = UDim2.new(0.343181819, 0, 0.184634462, 0)
 MainKeySystem.Size = UDim2.new(0, 413, 0, 376)
 
@@ -413,7 +415,6 @@ KeySystem.Parent = MainKeySystem
 KeySystem.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 KeySystem.Position = UDim2.new(-0.0242130756, 0, -0.0345744677, 0)
 KeySystem.Size = UDim2.new(0, 423, 0, 389)
-KeySystem.BackgroundTransparency = 0
 
 UICorner_12.Parent = KeySystem
 
@@ -434,23 +435,11 @@ TextLabel_10.BackgroundTransparency = 1.000
 TextLabel_10.Position = UDim2.new(0, 0, 0.737789214, 0)
 TextLabel_10.Size = UDim2.new(0, 423, 0, 50)
 TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "get the key here (key changes every 24 hours)"
+TextLabel_10.Text = "get the key here (key changes every 50 hours)"
 TextLabel_10.TextColor3 = Color3.fromRGB(32, 237, 255)
 TextLabel_10.TextScaled = true
 TextLabel_10.TextSize = 14.000
 TextLabel_10.TextWrapped = true
-
-TextLabel_11.Parent = KeySystem
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(0.0260047279, 0, 0.866323888, 0)
-TextLabel_11.Size = UDim2.new(0, 401, 0, 50)
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "https://link-center.net/479053/script-key"
-TextLabel_11.TextColor3 = Color3.fromRGB(32, 237, 255)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 14.000
-TextLabel_11.TextWrapped = true
 
 TextBox.Parent = KeySystem
 TextBox.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
@@ -458,7 +447,7 @@ TextBox.Position = UDim2.new(0.21985814, 0, 0.187660679, 0)
 TextBox.Size = UDim2.new(0, 237, 0, 72)
 TextBox.Font = Enum.Font.SourceSans
 TextBox.PlaceholderText = "enter the key"
-TextBox.Text = ""
+TextBox.Text = "Winke-thought-ehd92-Jjsi-728"
 TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextScaled = true
 TextBox.TextSize = 14.000
@@ -479,23 +468,39 @@ TextButton.TextWrapped = true
 
 UICorner_14.Parent = TextButton
 
+TextBox1.Name = "TextBox1"
+TextBox1.Parent = KeySystem
+TextBox1.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+TextBox1.BackgroundTransparency = 1.000
+TextBox1.Position = UDim2.new(0.0378250591, 0, 0.866323888, 0)
+TextBox1.Size = UDim2.new(0, 396, 0, 42)
+TextBox1.ClearTextOnFocus = false
+TextBox1.Font = Enum.Font.SourceSans
+TextBox1.Text = "https://link-center.net/479053/script-key"
+TextBox1.TextColor3 = Color3.fromRGB(32, 237, 255)
+TextBox1.TextScaled = true
+TextBox1.TextSize = 14.000
+TextBox1.TextWrapped = true
+
+UICorner_15.Parent = TextBox1
+
 Success.Name = "Success"
 Success.Parent = MainKeySystem
 Success.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
 Success.Size = UDim2.new(0, 361, 0, 343)
 Success.Visible = false
 
-TextLabel_12.Parent = Success
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.177285314, 0, 0.122448981, 0)
-TextLabel_12.Size = UDim2.new(0, 233, 0, 68)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "SUCCESS!"
-TextLabel_12.TextColor3 = Color3.fromRGB(32, 237, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
+TextLabel_11.Parent = Success
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.177285314, 0, 0.122448981, 0)
+TextLabel_11.Size = UDim2.new(0, 233, 0, 68)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "SUCCESS!"
+TextLabel_11.TextColor3 = Color3.fromRGB(32, 237, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
 
 TextButton_2.Parent = Success
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -508,13 +513,13 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-UICorner_15.Parent = TextButton_2
+UICorner_16.Parent = TextButton_2
 
-UICorner_16.Parent = Success
+UICorner_17.Parent = Success
 
 -- Scripts:
 
-local function BBVP_fake_script() -- Misc.LocalScript 
+local function GFVPUDQ_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -522,8 +527,49 @@ local function BBVP_fake_script() -- Misc.LocalScript
 		script.Parent.Parent.Parent.MiscTab.Visible = true
 	end)
 end
-coroutine.wrap(BBVP_fake_script)()
-local function WTFGX_fake_script() -- Main.LocalScript 
+coroutine.wrap(GFVPUDQ_fake_script)()
+local function ZPGE_fake_script() -- Codes.LocalScript 
+	local script = Instance.new('LocalScript', Codes)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		workspace.Code.CanCollide = false
+		workspace.Code.Transparency = 0.5
+		workspace.Code2.CanCollide = false
+		workspace.Code2.Transparency = 0.5
+		workspace.Code22.CanCollide = false
+		workspace.Code22.Transparency = 0.5
+		workspace.Code222.CanCollide = false
+		workspace.Code222.Transparency = 0.5
+		workspace.Code3.CanCollide = false
+		workspace.Code3.Transparency = 0.5
+		workspace.Code4.CanCollide = false
+		workspace.Code4.Transparency = 0.5
+		workspace.Code44.CanCollide = false
+		workspace.Code44.Transparency = 0.5
+		workspace.Code444.CanCollide = false
+		workspace.Code444.Transparency = 0.5
+		workspace.Code5.CanCollide = false
+		workspace.Code5.Transparency = 0.5
+		workspace.Code6.CanCollide = false
+		workspace.Code6.Transparency = 0.5
+		workspace.Code7.CanCollide = false
+		workspace.Code7.Transparency = 0.5
+		workspace.Code8.CanCollide = false
+		workspace.Code8.Transparency = 0.5
+		workspace.Code88.CanCollide = false
+		workspace.Code88.Transparency = 0.5
+		workspace.Code9.CanCollide = false
+		workspace.Code9.Transparency = 0.5
+		workspace.SpecialCode1.CanCollide = false
+		workspace.SpecialCode1.Transparency = 0.5
+		workspace.SpecialCode2.CanCollide = false
+		workspace.SpecialCode2.Transparency = 0.5
+		workspace.SpecialCode3.CanCollide = false
+		workspace.SpecialCode3.Transparency = 0.5
+	end)
+end
+coroutine.wrap(ZPGE_fake_script)()
+local function KEGENEQ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -531,8 +577,8 @@ local function WTFGX_fake_script() -- Main.LocalScript
 		script.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(WTFGX_fake_script)()
-local function AOLGIR_fake_script() -- Mainframe.LocalScript 
+coroutine.wrap(KEGENEQ_fake_script)()
+local function GWYLGT_fake_script() -- Mainframe.LocalScript 
 	local script = Instance.new('LocalScript', Mainframe)
 
 	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
@@ -544,8 +590,8 @@ local function AOLGIR_fake_script() -- Mainframe.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AOLGIR_fake_script)()
-local function YPRQK_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(GWYLGT_fake_script)()
+local function KSOK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -555,8 +601,8 @@ local function YPRQK_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YPRQK_fake_script)()
-local function WONNAPP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(KSOK_fake_script)()
+local function LXXE_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -564,8 +610,4 @@ local function WONNAPP_fake_script() -- TextButton_2.LocalScript
 		script.Parent.Parent.Parent.Parent.Mainframe.Visible = true
 	end)
 end
-coroutine.wrap(WONNAPP_fake_script)()
-
-
-
---ee
+coroutine.wrap(LXXE_fake_script)()
