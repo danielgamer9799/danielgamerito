@@ -413,6 +413,7 @@ KeySystem.Parent = MainKeySystem
 KeySystem.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 KeySystem.Position = UDim2.new(-0.0242130756, 0, -0.0345744677, 0)
 KeySystem.Size = UDim2.new(0, 423, 0, 389)
+KeySystem.BackgroundTransparency = 0
 
 UICorner_12.Parent = KeySystem
 
