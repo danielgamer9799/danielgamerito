@@ -406,7 +406,7 @@ TextLabel_8.TextSize = 14.000
 MainKeySystem.Name = "MainKeySystem"
 MainKeySystem.Parent = HBPgui
 MainKeySystem.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-MainKeySystem.BackgroundTransparency = 1.000
+MainKeySystem.BackgroundTransparency = 0
 MainKeySystem.Position = UDim2.new(0.343181819, 0, 0.184634462, 0)
 MainKeySystem.Size = UDim2.new(0, 413, 0, 376)
 
