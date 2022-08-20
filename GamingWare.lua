@@ -139,3 +139,15 @@ HomeTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/Roblox-Exploits/main/DanielUniversalUPDATED.lua", true))()
   	end    
 })
+HomeTab:AddButton({
+	Name = "Destroy GUI",
+	Callback = function()
+        OrionLib:Destroy()
+  	end    
+})
+HomeTab:AddButton({
+	Name = "HBP Breaker",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/danielgamerito/main/HBPBreaker.lua"))()
+  	end    
+})
