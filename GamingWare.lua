@@ -97,6 +97,14 @@ ScriptsTab:AddButton({
 		print("loaded VapeV4")
   	end    
 })
+
+ScriptsTab:AddButton({
+	Name = "Phantom Forces Unlock All",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))();
+  	end    
+})
+
 ScriptsTab:AddButton({
 	Name = "Vynixius",
 	Callback = function()
@@ -146,7 +154,7 @@ HomeTab:AddButton({
   	end    
 })
 HomeTab:AddButton({
-	Name = "HBP Breaker",
+	Name = "HBP ",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/danielgamerito/main/HBPBreaker.lua"))()
   	end    
