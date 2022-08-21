@@ -16,3 +16,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixiu
 ```
 # my discord server
 ## https://discord.gg/crVsYeubRb
+
+MOMMY
