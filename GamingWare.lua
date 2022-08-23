@@ -8,7 +8,7 @@ print("loaded gaming ware!")
 
 --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.1)", IntroIcon = "rbxassetid:/9866853914", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.1)", IntroIcon = "http://www.roblox.com/asset/?id=10686254563", })
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
