@@ -125,7 +125,7 @@ OrionLib:MakeNotification({
 	Name = "Welcome!",
 	Content = "Hi there!, thanks for using my script!, "..Player.Name.." ".."!",
 	Image = "rbxassetid://9866853914",
-	Time = 15
+	Time = 5
 })
 HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script, we are updating this one instead of the other script, in my opinion, this ui looks cooler, Credit to Orion UI Library")
 
