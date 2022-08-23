@@ -13,27 +13,27 @@ local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
 	Name = "Home",
-	Icon = "rbxassetid://4483345998",
+	Icon = "http://www.roblox.com/asset/?id=4370345144",
 	PremiumOnly = false
 })
 local CharacterTab = Window:MakeTab({
 	Name = "Character",
-	Icon = "rbxassetid://4483345998",
+	Icon = "http://www.roblox.com/asset/?id=4483345737",
 	PremiumOnly = false
 })
 local ScriptHubsTab = Window:MakeTab({
 	Name = "Script Hubs",
-	Icon = "rbxassetid://4483345998",
+	Icon = "http://www.roblox.com/asset/?id=4370341699",
 	PremiumOnly = false
 })
 local ScriptsTab = Window:MakeTab({
 	Name = "Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "http://www.roblox.com/asset/?id=3605022185",
 	PremiumOnly = false
 })
 local UniversalTab = Window:MakeTab({
 	Name = "Universal",
-	Icon = "rbxassetid://4483345998",
+	Icon = "http://www.roblox.com/asset/?id=4370344717",
 	PremiumOnly = false
 })
 ---Buttons and etc
