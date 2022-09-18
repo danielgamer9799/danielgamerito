@@ -78,6 +78,14 @@ ScriptHubsTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
   	end    
 })
+
+ScriptHubsTab:AddButton({
+	Name = "StrawHook",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+  	end    
+})
+
 UniversalTab:AddButton({
 	Name = "e to fly",
 	Callback = function()
