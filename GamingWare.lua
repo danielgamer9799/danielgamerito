@@ -128,6 +128,13 @@ ScriptsTab:AddButton({
   	end    
 })
 
+ScriptsTab:AddButton({
+	Name = "Prison Life Admin Commands",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+  	end    
+})
+
 --Misc
 OrionLib:MakeNotification({
 	Name = "Welcome!",
