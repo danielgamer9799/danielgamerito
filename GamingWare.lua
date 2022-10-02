@@ -93,6 +93,12 @@ UniversalTab:AddButton({
   	end    
 })
 UniversalTab:AddButton({
+	Name = "ESP Gui",
+	Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/snDPg81C"))()
+  	end    
+})
+UniversalTab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
