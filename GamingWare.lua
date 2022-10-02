@@ -95,7 +95,7 @@ UniversalTab:AddButton({
 UniversalTab:AddButton({
 	Name = "ESP Gui",
 	Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/snDPg81C"))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/Script-Blox-Scripts/main/My%20Scripts/EspGui.lua"))()
   	end    
 })
 UniversalTab:AddButton({
