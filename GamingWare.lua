@@ -104,6 +104,12 @@ UniversalTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
+UniversalTab:AddButton({
+	Name = "Bypassed Dex V3",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+  	end    
+})
 ScriptsTab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
