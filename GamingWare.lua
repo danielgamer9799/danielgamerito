@@ -124,6 +124,12 @@ ScriptsTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))();
   	end    
 })
+ScriptsTab:AddButton({
+	Name = "Starving Artists Art Stealer",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/danielgamer9799/Script-Blox-Scripts/main/Not%20mine/Starving%20Artists%20Art%20Stealer.lua"))()
+  	end    
+})
 
 ScriptsTab:AddButton({
 	Name = "Vynixius",
