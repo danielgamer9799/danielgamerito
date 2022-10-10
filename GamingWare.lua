@@ -8,7 +8,7 @@ print("loaded gaming ware!")
 
 --
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.1)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.1)", IntroIcon = "http://www.roblox.com/asset/?id=10686254563", })
+local Window = OrionLib:MakeWindow({Name = "Gaming Ware (1.5.3)", HidePremium = false, SaveConfig = true, ConfigFolder = "Gaming Ware", IntroEnabled = true, IntroText = "Gaming Ware (1.5.3)"})
 local Player = game.Players.LocalPlayer
 --Tabs
 local HomeTab = Window:MakeTab({
@@ -164,7 +164,7 @@ HomeTab:AddParagraph("note","this is a NEW VERSION of daniel's universal script,
 
 HomeTab:AddParagraph("By Danielgamer9799, DANIELGAMERITO")
 
-HomeTab:AddParagraph("Update 1.5.1","this update made, -removed individually putting your vynixius scripts, now its the loader, and updated discord server link")
+HomeTab:AddParagraph("Update 1.5.3","this update made, -Starving Artists Art Stealer, and other stuff i dont want to list here")
 
 HomeTab:AddTextbox({
 	Name = "Discord",
