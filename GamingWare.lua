@@ -152,6 +152,12 @@ ScriptsTab:AddButton({
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
   	end    
 })
+ScriptsTab:AddButton({
+	Name = "Chat Stuff",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/d4ba/x/main/24da.lua"))()
+  	end    
+})
 
 --Misc
 OrionLib:MakeNotification({
